@@ -1,6 +1,6 @@
-# Contributing to Bitcore-Innova
+# Contributing to Bitcore-MoneyByte
 
-We're working hard to make *bitcore-innova* the most powerful JavaScript library for working with Innova. Our goal is to have *bitcore-innova* be a library that can be used by anyone interested in Innova, and to level expertise differences with great design and documentation.
+We're working hard to make *bitcore* the most powerful JavaScript library for working with MoneyByte. Our goal is to have *bitcore* be a library that can be used by anyone interested in MoneyByte, and to level expertise differences with great design and documentation.
 
 ## Quick Checklist
 
@@ -12,7 +12,7 @@ Ideally, please make sure to run:
 
 ## Design Guidelines
 
-These are some global design goals in bitcore-innova to which any change should adhere.
+These are some global design goals in bitcore to which any change should adhere.
 
 ### D1 - Naming Matters
 
@@ -238,8 +238,8 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add innova git@github.com:innovacoin/bitcore-innova.git
-git pull --rebase innova master
+git remote add moneybyte git@github.com:MoneyByte/bitcore.git
+git pull --rebase moneybyte master
 ```
 
 Note that we require rebasing your branch instead of merging it, for commit readability reasons.
@@ -250,11 +250,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/innovacoin/bitcore-innova](https://github.com/innovacoin/bitcore-innova) in your web browser and issue a new pull request.
+Finally go to [github.com/MoneyByte/bitcore](https://github.com/MoneyByte/bitcore) in your web browser and issue a new pull request.
 
 Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of bitcore.
 
 If you have any questions feel free to post them to
-[github.com/innovacoin/bitcore-innova/issues](https://github.com/innovacoin/bitcore-innova/issues).
+[github.com/MoneyByte/bitcore/issues](https://github.com/MoneyByte/bitcore/issues).
 
 Thanks for your time and code!

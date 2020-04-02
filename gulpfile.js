@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-innova');
+var bitcoreTasks = require('bitcore-build');
 
 bitcoreTasks();

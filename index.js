@@ -1,5 +1,5 @@
 'use strict';
 
-var bitcore = require('bitcore-lib-innova');
+var bitcore = require('bitcore-lib');
 
 module.exports = bitcore;

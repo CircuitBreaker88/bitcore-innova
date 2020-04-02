@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-innova",
+  "name": "bitcore",
   "version": "4.1.3",
-  "description": "A platform to build Innova and blockchain-based applications.",
-  "author": "Innova Core Group <dev@innova.org>",
+  "description": "A platform to build MoneyByte and blockchain-based applications.",
+  "author": "MoneyByte Core Group <dev@moneybyte.org>",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive",
@@ -56,10 +56,14 @@
     {
       "name": "Wei Lu",
       "email": "luwei.here@gmail.com"
+    },
+    {
+      "name": "CircuitBreaker"
+      "email": "circuitbreaker88@protonmail.com"
     }
   ],
   "keywords": [
-    "innova",
+    "moneybyte",
     "transaction",
     "address",
     "p2p",
@@ -76,16 +80,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/innovacoin/bitcore-innova.git"
+    "url": "https://github.com/MoneyByte/bitcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib-innova": "innovacoin/bitcore-lib-innova",
-    "bitcore-node-innova": "innovacoin/bitcore-node-innova",
-    "insight-api-innova": "innovacoin/insight-api-innova",
-    "insight-ui-innova": "innovacoin/insight-ui-innova"
+    "bitcore-lib": "MoneyByte/bitcore-lib",
+    "bitcore-node": "MoneyByte/bitcore-node",
+    "insight-api": "MoneyByte/insight-api",
+    "insight-ui": "MoneyByte/insight-ui"
   },
   "license": "MIT",
   "devDependencies": {
